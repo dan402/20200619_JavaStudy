@@ -16,14 +16,12 @@
 				  	>>= => int a=10; a>>=3; => 
 				  	
 				  	10/2^3 => a=1
-
-
-
-
-
-
-
-
+				  	
+						*한개가 증가할 시: 증가 연산자 => a++, ++a, a+=1, a=a+1
+						*원하는 갯수만큼 증가 : 복합 대입연산자
+				
+			
+		
 */
 
 
@@ -32,6 +30,22 @@ public class 이항연산자_대입연산자 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		int a=10;
+		a+=5;
+		System.out.println("a="+a);  //=> a값에 5를 더한다
+		
+		int b=10;
+		b-=5;
+		System.out.println("b="+b);  //=> b값에 5를 빼라
+		
+		int c=10;
+		c=c*5;
+		System.out.println("c="+c);
+		
+		int d=10;
+		d/=3;
+		System.out.println("d="+d);
+		
 	}
 
 }
